@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- is image ke piche hover kre to dusri image aaye -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            height: 500px;
+            position: relative;
+            width: 300px;
+            margin: 40px auto;
+
+            transform-style: preserve-3d;
+            transition: 3s;
+        }
+        main:hover{
+            transform: rotateY(180deg);
+        }
+        #card_a{
+            height: 50%;
+            width: 100%;
+            position: absolute;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        #card_b{
+            height: 50%;
+            width: 100%;
+            background-color: lightblue;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="card_a">
+            <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="img1">
+        </div>
+        <div id="card_b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, consequatur?</div>
+    
+            
+</html>
